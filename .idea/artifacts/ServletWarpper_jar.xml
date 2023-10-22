@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ServletWarpper:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ServletWarpper_jar</output-path>
+    <root id="archive" name="ServletWarpper.jar">
+      <element id="module-output" name="ServletWarpper" />
+      <element id="module-output" name="Log" />
+      <element id="module-output" name="Servlet" />
+    </root>
+  </artifact>
+</component>

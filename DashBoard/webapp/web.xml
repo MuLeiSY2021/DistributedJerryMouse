@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+    <config>
+        <display-name>Monitor</display-name>
+        <description>
+            This is a simple web application with a source code organization
+            based on the recommendations of the Application Developer's Guide.
+        </description>
+        <root-url>/monitor</root-url>
+    </config>
+
+    <servlet>
+        <servlet-name>MasterInfo</servlet-name>
+        <servlet-class>pers.jerrymouse.monitor.MasterInfo</servlet-class>
+        <servlet-mapping>/info</servlet-mapping>
+    </servlet>
+
+    <servlet>
+        <servlet-name>HashInfo</servlet-name>
+        <servlet-class>pers.jerrymouse.monitor.HashInfo</servlet-class>
+        <servlet-mapping>/hash</servlet-mapping>
+    </servlet>
+
+    <servlet>
+        <servlet-name>WebappInfo</servlet-name>
+        <servlet-class>pers.jerrymouse.monitor.WebAppInfo</servlet-class>
+        <servlet-mapping>/webapps</servlet-mapping>
+    </servlet>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+</web-app>

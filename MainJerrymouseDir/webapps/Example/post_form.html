@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>post_form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 设置背景 */
+        body {
+            background-color: #333333;
+            width: 100%;
+            height: 800px;
+        }
+
+        #request_title {
+            height: 10%;
+            line-height: 0.75;
+            color: #fff;
+            border-left: #fff 3.5px solid;
+            padding-left: 2%;
+            font-weight: bold;
+            font-style: italic;
+            margin: 0 0 30px 0;
+        }
+
+        .form {
+            width: 50%;
+            height: 30%;
+            margin: 10% auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* background-color: #fff; */
+        }
+
+        #form {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
+            border-radius: 15px;
+        }
+
+        #form form {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        input {
+            border: none;
+            border-bottom: 1px black solid;
+            outline: none;
+        }
+
+        input[type="submit"] {
+            width: 300%;
+            background-color: #00BFBF;
+            border: none;
+            border-radius: 12px;
+            color: #000000;
+            cursor: pointer;
+            font-family: arial, sans-serif;
+            font-size: 11px;
+            font-weight: bold;
+            line-height: 2.5;
+            text-align: center;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+<div id="request">
+    <!-- post表单 -->
+    <div class="form" id="get_form">
+        <div id="request_title">
+            post表单
+        </div>
+        <div id="form">
+            <form action="post/from" method="POST">
+                <div>网址名：<br/>网址：</div>
+                <div><input name="name" type="text"><br>
+                    <input name="url" type="text"/></div>
+                <div><input id="submit" type="submit" value="提交"></div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+    <config>
+        <display-name>Hello, World Application</display-name>
+        <description>
+            This is a simple web application with a source code organization
+            based on the recommendations of the Application Developer's Guide.
+        </description>
+        <root-url>/example</root-url>
+    </config>
+
+    <servlet>
+        <servlet-name>GetCheckServlet</servlet-name>
+        <servlet-class>org.example.GetCheckServlet</servlet-class>
+        <servlet-mapping>/get/check_box</servlet-mapping>
+    </servlet>
+    <servlet>
+        <servlet-name>GetFormServlet</servlet-name>
+        <servlet-class>org.example.GetFormServlet</servlet-class>
+        <servlet-mapping>/get/from</servlet-mapping>
+    </servlet>
+    <servlet>
+        <servlet-name>PostCheckServlet</servlet-name>
+        <servlet-class>org.example.PostCheckServlet</servlet-class>
+        <servlet-mapping>/post/check_box</servlet-mapping>
+    </servlet>
+    <servlet>
+        <servlet-name>PostFormServlet</servlet-name>
+        <servlet-class>org.example.PostFormServlet</servlet-class>
+        <servlet-mapping>/post/from</servlet-mapping>
+    </servlet>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+</web-app>

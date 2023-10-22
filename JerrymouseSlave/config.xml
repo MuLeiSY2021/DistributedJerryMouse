@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+    <name>Slave1</name>
+    <description>This is a distributed Jerry Mouse Master</description>
+    <port>8090</port>
+    <beat-port>8091</beat-port>
+
+    ///Millisecond level
+    <out-time>5000</out-time>
+</config>

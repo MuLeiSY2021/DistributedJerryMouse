@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 设置背景 */
+        body {
+            background-color: #333333;
+            width: 100%;
+            height: 800px;
+        }
+
+        div {
+            width: 80%;
+            margin: 20% auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        div button {
+            margin: auto;
+            background-color: #00BFBF;
+            border: none;
+            border-radius: 15px;
+            color: #000000;
+            cursor: pointer;
+            font-family: arial, sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+            width: 8%;
+            height: 50%;
+            line-height: 2.5;
+            text-align: center;
+        }
+
+        div button:hover {
+            box-shadow: 0 0 5px white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <button id="get_form" onClick="get_form()">get表单</button>
+    <button id="get_check" onClick="get_check()">get复选框</button>
+    <button id="post_form" onClick="post_form()">post表单</button>
+    <button id="post_check" onClick="post_check()">post复选框</button>
+</div>
+<script>
+    function get_form() {
+        window.location.href = 'example/get_form.html';
+    }
+
+    function get_check() {
+        window.location.href = 'example/get_check.html';
+    }
+
+    function post_form() {
+        window.location.href = 'example/post_form.html';
+    }
+
+    function post_check() {
+        window.location.href = 'example/post_check.html';
+    }
+
+</script>
+</body>
+</html>

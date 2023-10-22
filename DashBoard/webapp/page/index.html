@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>TomcatMonitor</title>
+    <link href="monitor/index.css" rel="stylesheet">
+</head>
+<body onload="take()">
+<!-- 主机 -->
+<div id="Main">
+    <!-- 主机 -->
+    <div id="main">
+        <p>主机名:</p>
+        <p>port:</p>
+        <p>主机描述:</p>
+    </div>
+</div>
+
+<!-- 小标题 -->
+<div id="title">
+    <h3><i>I</i> webapp</h3>
+    <h3><i>I</i> 从机</h3>
+</div>
+
+<!-- webapp按钮 和 slave按钮 -->
+<div id="webapp_slave">
+    <!-- webapp容器 -->
+    <div id="webapp_container"></div>
+    <!-- 要复制的webapp节点 -->
+    <div id="webapp_node">webapp1</div>
+    <!-- slave容器 -->
+    <div id="slave_container"></div>
+    <!-- 要复制的slave节点 -->
+    <div id="slave_node">
+        <p>slave1</p>
+        <div><p id="status_p"></p>
+            <p>isAlive</p></div>
+    </div>
+</div>
+
+
+<!-- webapp详细信息 和 slave的url、cookies -->
+<div id="webappMsg_slaveMsg">
+    <!-- webapp的所有信息 -->
+    <div id="webappMsg">
+        <div id="webapp_name">webapp名称：</div>
+        <div id="webapp_descript">服务描述</div>
+        <div>servlet：Name、Class、Mapping</div>
+        <div id="servlet_container"></div>
+    </div>
+    <!-- slave详细信息 -->
+    <div id="slaveMsg">
+        <div id="url_container"></div>
+        <div id="url_node">
+            <p>url:</p>
+            <p>cooike:</p>
+        </div>
+    </div>
+</div>
+<!-- 要复制的servlet节点 -->
+<div id="servlet_node" style="display:none;">
+    <p></p>
+    <p></p>
+    <p></p>
+</div>
+
+<script src="monitor/test.js"></script>
+</body>
+</html>

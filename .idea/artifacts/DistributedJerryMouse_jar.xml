@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="DistributedJerryMouse:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DistributedJerryMouse_jar</output-path>
+    <root id="archive" name="JerryMouse.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Servlet/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="DistributedJerryMouse" />
+      <element id="module-output" name="Log" />
+      <element id="module-output" name="Servlet" />
+      <element id="module-output" name="ServletWarpper" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

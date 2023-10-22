@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<slaves>
+    <virtual-node-number>100</virtual-node-number>
+    <slave>
+        <name>Slave1</name>
+
+        <host>localhost</host>
+        <port>8090</port>
+        <beat-port>8091</beat-port>
+        <file-route>/data/home/MuLei_SY/MyCoding/DistributedJerryMouse/JerrymouseSlave</file-route>
+    </slave>
+
+</slaves>

@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 设置背景 */
+body {
+    background-color: #333333;
+    width: 100%;
+    height: 800px;
+}
+
+/* 主机 */
+#Main {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#main {
+    width: 20%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 5px white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2%;
+}
+
+#main:hover {
+    box-shadow: 0 0 10px #fff;
+    font-size: 110%;
+    color: #6a6666;
+    cursor: pointer;
+    transition: .2s;
+}
+
+/* 标题 */
+#title {
+    width: 90%;
+    height: 5%;
+    margin: auto;
+    /* background-color: #bfa; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+}
+
+#title :nth-child(1) {
+    width: 50%;
+    margin: auto;
+}
+
+#title :nth-child(2) {
+    width: 50%;
+    margin: auto;
+}
+
+/* webapp按钮 和 slave按钮 */
+#webapp_slave {
+    width: 90%;
+    margin: 20px auto 0;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+#webapp_container {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#webapp_node {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 12px;
+    margin: 1.5%;
+    background-color: #00BFBF;
+
+}
+
+#slave_container {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#slave_node {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    margin: 1.5%;
+    background-color: #00BFBF;
+    border-radius: 12px;
+}
+
+#status_p {
+    display: block;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    background-color: gray;
+    opacity: 0.8;
+}
+
+#slave_node div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#webapp_node:hover, #slave_node:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px #fff;
+    color: #333333;
+    transition: .3s;
+}
+
+
+/* webapp和slave的详细信息 */
+#webappMsg_slaveMsg {
+    width: 90%;
+    /* height: 80%; */
+    margin: 20px auto 0;
+    display: flex;
+    flex-direction: row;
+}
+
+/* webapp的 */
+#webappMsg {
+    width: 45%;
+    /* height: 80%; */
+    margin-right: 5%;
+    background-color: #f6f1f1f6;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+#webappMsg div:nth-child(1) {
+    width: 90%;
+    margin: 1% auto 3%;
+    word-break: break-all;
+    /* background-color: red; */
+}
+
+#webappMsg div:nth-child(2) {
+    width: 90%;
+    margin: 0 auto 3%;
+    padding: 3% 0 3% 0;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 0 5px #aaa;
+    word-break: break-all;
+}
+
+#webappMsg div:nth-child(2):hover {
+    box-shadow: 0 0 10px #fff;
+    font-size: 110%;
+    color: #6a6666;
+    cursor: pointer;
+    transition: .2s;
+}
+
+#webappMsg div:nth-child(3) {
+    width: 90%;
+    margin: 0 auto 3%;
+    font-weight: bolder;
+    /* float: left;
+    text-align: center;
+    margin:0 0 3% 5%; */
+    padding: 1.5% 0 1.5% 0;
+    /* background-color: #00BFBF;
+    color: #fff;
+    border-radius: 12px; */
+}
+
+#servlet_container {
+    width: 90%;
+    margin: auto;
+}
+
+#servlet_node {
+    width: 90%;
+    margin: 0 auto 3%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 0 5px #aaa;
+}
+
+#servlet_node:hover {
+    box-shadow: 0 0 10px #fff;
+    font-size: 105%;
+    color: #6a6666;
+    cursor: pointer;
+    transition: .2s;
+}
+
+#servlet_node p:nth-child(1) {
+    width: 20%;
+    margin: 0 3% 0 3%;
+    display: flex;
+    align-items: center;
+    word-break: break-all;
+    font-weight: normal;
+}
+
+#servlet_node p:nth-child(2) {
+    width: 54%;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    word-break: break-all;
+    font-weight: normal;
+}
+
+#servlet_node p:nth-child(3) {
+    width: 22%;
+    display: flex;
+    align-items: center;
+    word-break: break-all;
+    font-weight: normal;
+}
+
+/* slave的 */
+#slaveMsg {
+    width: 45%;
+    border-radius: 12px;
+}
+
+#url_container {
+    width: 100%;
+}
+
+#url_node {
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 12px;
+    margin: 0 0 5% 0;
+    font-size: 90%;
+}
+
+#url_node p {
+    margin: 0.5% 0 0.5% 0;
+    font-weight: bolder;
+}
+
+#url_node:hover {
+    box-shadow: 0 0 10px #aaa;
+    font-size: 95%;
+    color: #6a6666;
+    cursor: pointer;
+    transition: .2s;
+}

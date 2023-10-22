@@ -1,0 +1,17 @@
+[INFO] 2023-05-10 01:06:18  Set working directoryJerrymouseSlave 
+[INFO] 2023-05-10 01:06:18 Slave server startup..  
+[INFO] 2023-05-10 01:06:18  Start init.. 
+
+[INFO] 2023-05-10 01:06:22 start read config.. 
+[INFO] 2023-05-10 01:06:23 Set working directory.. 
+[INFO] 2023-05-10 01:06:23 Set port.. 
+[INFO] 2023-05-10 01:06:23 Set out-time.. 
+[INFO] 2023-05-10 01:06:23 Set name.. 
+[INFO] 2023-05-10 01:06:23 Set description.. 
+[INFO] 2023-05-10 01:06:23 Set path.. 
+[INFO] 2023-05-10 01:06:23 Set processorFactoryDao.. 
+[INFO] 2023-05-10 01:06:23 Set beat-port.. 
+[INFO] 2023-05-10 01:06:23 read config done 
+[INFO] 2023-05-10 01:06:23 Start deleting all files 
+[INFO] 2023-05-10 01:06:23 Start slave listener 
+

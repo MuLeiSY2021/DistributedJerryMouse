@@ -1,0 +1,7 @@
+{
+  "JERRY_MOUSE\u003d854dd17d-18fd-4ed9-9044-71a951a2f725;  /example": "Slave1",
+  "JERRY_MOUSE\u003d4c0b7361-82e1-4f1d-9eba-50ff2a4f321b;  /example": "Slave1",
+  "JERRY_MOUSE\u003d854dd17d-18fd-4ed9-9044-71a951a2f725;  /example/get/from": "Slave2",
+  "JERRY_MOUSE\u003d4c0b7361-82e1-4f1d-9eba-50ff2a4f321b;  /favicon.ico": "Slave1",
+  "JERRY_MOUSE\u003d854dd17d-18fd-4ed9-9044-71a951a2f725;  /example/get_form.html": "Slave3"
+}

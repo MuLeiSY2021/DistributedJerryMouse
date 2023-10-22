@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+    <port>10086</port>
+    <name>mainJerryMouse</name>
+    <description>This is a distributed Jerry Mouse Master</description>
+    ///Millisecond level
+    <out-time>5000</out-time>
+</config>

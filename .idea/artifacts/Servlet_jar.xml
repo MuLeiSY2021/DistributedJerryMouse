@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Servlet:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Servlet_jar</output-path>
+    <root id="archive" name="Servlet.jar">
+      <element id="module-output" name="Servlet" />
+    </root>
+  </artifact>
+</component>

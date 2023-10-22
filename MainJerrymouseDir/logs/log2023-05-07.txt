@@ -1,0 +1,44 @@
+[INFO] 2023-05-07 14:58:45 Master server startup..  
+[DEBUG] 2023-05-07 14:58:47 true 
+[INFO] 2023-05-07 14:58:47 start read config.. 
+[INFO] 2023-05-07 14:58:47 Set working directory.. 
+[INFO] 2023-05-07 14:58:47 Master server startup..  
+[DEBUG] 2023-05-07 14:58:47 true 
+[INFO] 2023-05-07 14:58:47 start read config.. 
+[INFO] 2023-05-07 14:58:47 Set working directory.. 
+[INFO] 2023-05-07 14:58:47 Set port.. 
+[INFO] 2023-05-07 14:58:47 Set out-time.. 
+[INFO] 2023-05-07 14:58:47 Set name.. 
+[INFO] 2023-05-07 14:58:47 Set description.. 
+[INFO] 2023-05-07 14:58:47 Set path.. 
+[INFO] 2023-05-07 14:58:47 Set processorFactoryDao.. 
+[INFO] 2023-05-07 14:58:47 read config done 
+[INFO] 2023-05-07 14:58:47 start init services 
+[INFO] 2023-05-07 14:58:48 all services setup 
+[INFO] 2023-05-07 14:58:48 Serve is listening on port 10086 
+[INFO] 2023-05-07 14:58:48 Slaves read from MainJerrymouseDir/slaves.xml 
+[INFO] 2023-05-07 14:58:48 Slave Slave1 localhost 8090 Connecting... 
+[WARN] 2023-05-07 14:58:48 Failed to connect slave,wait 1 seconds 
+[INFO] 2023-05-07 14:58:49 Slave Slave1 localhost 8090 Connecting... 
+[WARN] 2023-05-07 14:58:49 Failed to connect slave,wait 2 seconds 
+[INFO] 2023-05-07 14:58:51 Slave Slave1 localhost 8090 Connecting... 
+[WARN] 2023-05-07 14:58:51 Failed to connect slave,wait 4 seconds 
+[INFO] 2023-05-07 14:58:55 Slave Slave1 localhost 8090 Connecting... 
+[WARN] 2023-05-07 14:58:55 Failed to connect slave,wait 8 seconds 
+[INFO] 2023-05-07 14:59:00 Master server startup..  
+[DEBUG] 2023-05-07 14:59:00 true 
+[INFO] 2023-05-07 14:59:00 start read config.. 
+[INFO] 2023-05-07 14:59:00 Set working directory.. 
+[INFO] 2023-05-07 14:59:00 Set port.. 
+[INFO] 2023-05-07 14:59:00 Set out-time.. 
+[INFO] 2023-05-07 14:59:00 Set name.. 
+[INFO] 2023-05-07 14:59:00 Set description.. 
+[INFO] 2023-05-07 14:59:00 Set path.. 
+[INFO] 2023-05-07 14:59:00 Set processorFactoryDao.. 
+[INFO] 2023-05-07 14:59:00 read config done 
+[INFO] 2023-05-07 14:59:00 start init services 
+[INFO] 2023-05-07 14:59:00 all services setup 
+[INFO] 2023-05-07 14:59:00 Serve is listening on port 10086 
+[INFO] 2023-05-07 14:59:00 Slaves read from MainJerrymouseDir/slaves.xml 
+[INFO] 2023-05-07 14:59:00 Slave Slave1 localhost 8090 Connecting... 
+[WARN] 2023-05-07 14:59:00 Failed to connect slave,wait 1 seconds 

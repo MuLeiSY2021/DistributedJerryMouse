@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 设置背景 */
+body {
+    background-color: #333333;
+    width: 100%;
+    height: 800px;
+}
+
+#main_request {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 主机 */
+#main {
+    width: 20%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 5px white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2%;
+}
+
+/* 请求测试按钮 */
+#request_btn_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 20%;
+    /* background-color: #fff; */
+}
+
+#request_btn_div button {
+    border: none;
+    background-color: #fff;
+    width: 60%;
+    height: 100%;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#request_btn_div button:hover {
+    cursor: pointer;
+}
+
+/* servlet */
+#servlet_container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    /* background-color: #fff; */
+}
+
+#servlet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 10%;
+    margin: 10px auto;
+}
+
+#servlet_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 70%;
+    background-color: #00BFBF;
+    color: #fff;
+    border-radius: 12px;
+}
+
+#servlet_title:hover {
+    cursor: pointer;
+}
+
+#servlet_node {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 0.3% 0;
+}
+
+#servlet_node p {
+    margin-right: 2%;
+}
+
+/* webapp */
+#webapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 10%;
+    margin: 10px auto;
+}
+
+#webapp_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 70%;
+    background-color: #00BFBF;
+    color: #fff;
+    border-radius: 12px;
+}
+
+#webapp_title:hover {
+    cursor: pointer;
+}
+
+#webapp_container {
+    width: 54%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 15px;
+    margin: auto;
+    background-color: #fff;
+}
+
+#webapp_node button {
+    width: 80px;
+    height: 35px;
+    border-radius: 12px;
+    margin: 10px;
+    color: #fff;
+    border: none;
+    background-color: #00BFBF;
+}
+
+#webapp_node button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px #00BFBF;
+}
+
+#webapp_desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 54%;
+    height: 30%;
+    margin: 2% auto;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+
+/* 分机 */
+.master_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 20%;
+    margin: 50px auto 20px;
+    /* background-color: #000; */
+}
+
+.master_node {
+    margin: 0 2% 0 2%;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 5px white;
+    font-weight: bold;
+}
+
+.master_node:hover {
+    background-color: #00BFBF;
+    box-shadow: 0 0 5px rgb(33, 173, 224);
+    cursor: pointer;
+}
+
+
+/* 详细信息和请求测试两部分 */
+#msg_request {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    /* background-color: #fff; */
+}
+
+/* 详细信息 */
+#msg {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 70%;
+    /* background-color: #fff; */
+}
+
+#title {
+    height: 5%;
+    line-height: 1;
+    color: #fff;
+    border-left: #fff 3.5px solid;
+    padding-left: 2%;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0 0 30px 0;
+}
+
+#msg_content {
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 5px white;
+}
+
+#services_discription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 20%;
+    background-color: #fff;
+    border: 1px rgb(132, 127, 127) solid;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(132, 127, 127);
+}
+
+
+/* urls显示 */
+#urls {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 45%;
+    /* background-color: #bfa; */
+}
+
+#url_container {
+    /* background-color: red; */
+    margin-bottom: 150px;
+}
+
+#url_node {
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 0 0 5% 0;
+}
+
+
+/* 暂弃 */
+/* #services_container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    margin:10px auto 10px;
+}
+#services_node{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 100%;
+    background-color: #AAAAAA;
+    color: #fff;
+    margin: auto;
+    border-radius: 12px;
+}
+#services_node:hover{
+    background-color:#00BFBF;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(80, 78, 78); 
+}
+#port_root{
+    width: 90%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#services_discription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 20%;
+    background-color: #fff;
+    border: 1px rgb(132, 127, 127) solid;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(132, 127, 127);
+} */
